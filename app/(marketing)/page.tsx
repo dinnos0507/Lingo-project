@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button"
+
 export default function Home() {
   return (
     <div>
-        This is a page LOL:
+      <Button>Wau</Button>
+      This is  a page LOL:
     </div>
   )
 }
