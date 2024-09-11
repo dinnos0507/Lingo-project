@@ -1,3 +1,5 @@
+import { Footer } from "./footer";
+import { Header } from "./header";
 type Props = {
   children: React.ReactNode
 }
@@ -5,7 +7,11 @@ type Props = {
 const MarketingLayout = ({ children }: Props) => {
   return (
     <div className='min-h-screen'>
-      <main className='flex-1 flex flex-col last:items-center justify-items-center'>{children}</main>
+      <Header />
+      <main className='flex-1 flex flex-col last:items-center justify-items-center'>{children}
+
+      </main>
+      <Footer />
     </div>
   )
 }
