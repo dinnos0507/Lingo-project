@@ -1,3 +1,4 @@
+import { Sidebar } from "@/components/ui/sidebar";
 import { Footer } from "./footer";
 import { Header } from "./header";
 type Props = {
