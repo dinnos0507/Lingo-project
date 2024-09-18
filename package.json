@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "db:studio": "bunx drizzle-kit studio",
-    "db:push": "bunx drizzle-kit push:pd",
+    "db:push": "bunx drizzle-kit push",
     "db:seed": "bun ./scripts/seed.ts",
     "generate": "drizzle-kit generate",
     "migrate": "drizzle-kit migrate"
