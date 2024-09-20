@@ -1,13 +1,8 @@
 import type { Metadata } from "next"
 import { Nunito } from "next/font/google"
 import { Toaster } from "@/components/ui/sonner"
-import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton
-} from '@clerk/nextjs'
+import { ClerkProvider } from '@clerk/nextjs'
+import { ExitModal } from "@/components/modals/exit-modal"
 import './globals.css'
 import React from 'react'
 
@@ -28,6 +23,7 @@ export default function RootLayout({
       <html lang='en'>
         <body className={font.className}>
           <Toaster />
+          <ExitModal />
           {children}
         </body>
       </html>
