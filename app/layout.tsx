@@ -1,10 +1,12 @@
+// import React from 'react'
 import type { Metadata } from "next"
 import { Nunito } from "next/font/google"
 import { Toaster } from "@/components/ui/sonner"
 import { ClerkProvider } from '@clerk/nextjs'
 import { ExitModal } from "@/components/modals/exit-modal"
+import { HeartsModal } from "@/components/modals/hearts-modal"
+import { PracticeModal } from "@/components/modals/practice-modal"
 import './globals.css'
-import React from 'react'
 
 const font = Nunito({ subsets: ['latin'] })
 
@@ -24,6 +26,8 @@ export default function RootLayout({
         <body className={font.className}>
           <Toaster />
           <ExitModal />
+          <HeartsModal />
+          <PracticeModal />
           {children}
         </body>
       </html>
