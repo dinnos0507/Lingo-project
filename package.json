@@ -14,9 +14,9 @@
     "migrate": "drizzle-kit migrate"
   },
   "dependencies": {
-    "@clerk/nextjs": "^5.6.0",
+    "@clerk/nextjs": "^5.7.2",
     "@neondatabase/serverless": "^0.9.5",
-    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-progress": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
@@ -24,31 +24,32 @@
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.33.0",
     "lucide-react": "^0.441.0",
-    "next": "^14.2.13",
+    "next": "^14.2.15",
     "next-themes": "^0.3.0",
     "postgres": "^3.4.4",
     "react": "^18.3.1",
     "react-circular-progressbar": "^2.1.0",
     "react-confetti": "^6.1.0",
     "react-dom": "^18.3.1",
-    "react-flagpack": "^2.0.5",
+    "react-flagpack": "^2.0.6",
     "react-use": "^17.5.1",
     "sonner": "^1.5.0",
-    "tailwind-merge": "^2.5.2",
+    "stripe": "^17.2.0",
+    "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
-    "zustand": "^5.0.0-rc.2"
+    "zustand": "^5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.16.5",
-    "@types/react": "^18.3.8",
-    "@types/react-dom": "^18.3.0",
+    "@types/node": "^20.16.11",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
     "drizzle-kit": "^0.24.2",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^14.2.13",
+    "eslint-config-next": "^14.2.15",
     "pg": "^8.13.0",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.12",
+    "tailwindcss": "^3.4.13",
     "tsx": "^4.19.1",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   }
 }
