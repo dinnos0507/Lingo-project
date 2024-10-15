@@ -7,7 +7,7 @@ type PracticeModalState = {
 }
 
 export const usePracticeModal = create<PracticeModalState>((set) => ({
-    isOpen:false, // TODO: Change back to false
+    isOpen:false, 
     open: () => set({ isOpen: true}),
     close: () => set({ isOpen: false}),
 }))

@@ -7,7 +7,7 @@ type HeartsModalState = {
 }
 
 export const useHeartsModal = create<HeartsModalState>((set) => ({
-    isOpen:false, // TODO: Change back to false
+    isOpen:false, 
     open: () => set({ isOpen: true}),
     close: () => set({ isOpen: false}),
 }))
