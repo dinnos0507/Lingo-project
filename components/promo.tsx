@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import Image from "next/image"
 
@@ -23,7 +21,7 @@ export const Promo = () => {
                 <p className="text-muted-foreground">
                     Get unlimited hearts and more!
                 </p>
-            </div>
+            </div>  
            
             <Button
                 asChild
