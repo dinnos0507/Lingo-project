@@ -10,6 +10,7 @@
     "db:studio": "bunx drizzle-kit studio",
     "db:push": "bunx drizzle-kit push",
     "db:seed": "bun ./scripts/seed.ts",
+    "db:prod": "bun ./scripts/prod.ts",
     "db:reset": "bun ./scripts/reset.ts",
     "generate": "drizzle-kit generate",
     "migrate": "drizzle-kit migrate"
