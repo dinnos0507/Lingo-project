@@ -3,7 +3,7 @@ import Image from "next/image"
 
 import { courses } from "@/db/schema"
 import { Button } from "@/components/ui/button";
-import { InfinityIcon, Infinity } from "lucide-react";
+import { InfinityIcon } from "lucide-react";
 
 type Props = {
     activeCourse: typeof courses.$inferSelect;
